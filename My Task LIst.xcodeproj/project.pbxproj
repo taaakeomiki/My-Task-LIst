@@ -15,6 +15,7 @@
 		BC0740141E9C8F4300653F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0740121E9C8F4300653F4C /* LaunchScreen.storyboard */; };
 		BC07401F1E9C8F4400653F4C /* My_Task_LIstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC07401E1E9C8F4400653F4C /* My_Task_LIstTests.swift */; };
 		BC07402A1E9C8F4400653F4C /* My_Task_LIstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0740291E9C8F4400653F4C /* My_Task_LIstUITests.swift */; };
+		BC07403A1E9C90A600653F4C /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0740391E9C90A600653F4C /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BC0740251E9C8F4400653F4C /* My Task LIstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Task LIstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0740291E9C8F4400653F4C /* My_Task_LIstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Task_LIstUITests.swift; sourceTree = "<group>"; };
 		BC07402B1E9C8F4400653F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0740391E9C90A600653F4C /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BC0740101E9C8F4300653F4C /* Assets.xcassets */,
 				BC0740121E9C8F4300653F4C /* LaunchScreen.storyboard */,
 				BC0740151E9C8F4300653F4C /* Info.plist */,
+				BC0740391E9C90A600653F4C /* TaskManager.swift */,
 			);
 			path = "My Task LIst";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				BC07400C1E9C8F4300653F4C /* SecondViewController.swift in Sources */,
 				BC0740081E9C8F4300653F4C /* AppDelegate.swift in Sources */,
+				BC07403A1E9C90A600653F4C /* TaskManager.swift in Sources */,
 				BC07400A1E9C8F4300653F4C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
